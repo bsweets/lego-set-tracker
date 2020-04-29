@@ -18,8 +18,8 @@
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
-        <list_banner_button>true</list_banner_button>
-        <list_button>true</list_button>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
         <list_choice>true</list_choice>
         <list_context_menu>true</list_context_menu>
         <list_link>false</list_link>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d54daf9ceca410107f44e039b4f424e1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Get Lego Set Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
         <sys_update_name>sys_ui_action_d54daf9ceca410107f44e039b4f424e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-29 19:41:22</sys_updated_on>
+        <sys_updated_on>2020-04-29 19:42:59</sys_updated_on>
         <table>x_snc_lego_set_tra_lego_set</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
