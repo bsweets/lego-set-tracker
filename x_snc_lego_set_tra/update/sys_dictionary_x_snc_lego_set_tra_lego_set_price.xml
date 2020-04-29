@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-29 19:23:54</sys_created_on>
-        <sys_id>02516468ec2810107f44e039b4f42403</sys_id>
+        <sys_id>0f54e4e8ec2810107f44e039b4f4248b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Price</sys_name>
         <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_lego_set_tra_lego_set_price</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-29 19:23:54</sys_updated_on>
+        <sys_updated_on>2020-04-29 19:36:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
