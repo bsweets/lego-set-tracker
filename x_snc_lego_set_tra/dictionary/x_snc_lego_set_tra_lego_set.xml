@@ -2,7 +2,9 @@
     <element label="Lego Set" max_length="40" name="x_snc_lego_set_tra_lego_set" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Missing pieces" max_length="40" name="missing_pieces" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="150" name="name" type="string"/>
+        <element label="Number of parts" max_length="40" name="number_of_parts" type="integer"/>
         <element display="true" label="Set number" max_length="40" name="set_number" type="integer"/>
     </element>
 </database>
