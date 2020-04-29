@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>Lego Set Item Stream Segment</name>
+        <order>0</order>
+        <screen display_value="Lego Sets">20faab5ceca410107f44e039b4f4243a</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-29 15:25:59</sys_created_on>
+        <sys_id>6cfaab5ceca410107f44e039b4f4243b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lego Set Item Stream Segment</sys_name>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_6cfaab5ceca410107f44e039b4f4243b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-29 15:25:59</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

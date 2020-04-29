@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">acfaab5ceca410107f44e039b4f4240f</icon>
+        <item_view display_value="Lego Set Detail Screen Item View">2cfaab5ceca410107f44e039b4f42439</item_view>
+        <name>Lego Set Form Screen</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-29 15:25:59</sys_created_on>
+        <sys_id>acfaab5ceca410107f44e039b4f4243a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lego Set Form Screen</sys_name>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name>sys_sg_form_screen_acfaab5ceca410107f44e039b4f4243a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-29 15:25:59</sys_updated_on>
+        <table>x_snc_lego_set_tra_lego_set</table>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=acfaab5ceca410107f44e039b4f4243a"/>
+</record_update>
