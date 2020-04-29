@@ -5,6 +5,7 @@
         <element label="Missing pieces" max_length="40" name="missing_pieces" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="150" name="name" type="string"/>
         <element label="Number of parts" max_length="40" name="number_of_parts" type="integer"/>
+        <element label="Price" max_length="20" name="price" type="currency"/>
         <element display="true" label="Set number" max_length="40" name="set_number" type="integer"/>
     </element>
 </database>
