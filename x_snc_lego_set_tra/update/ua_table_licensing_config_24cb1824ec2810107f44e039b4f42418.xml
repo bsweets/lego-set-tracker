@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-29 15:25:35</sys_created_on>
-        <sys_id>feda6b5ceca410107f44e039b4f4241e</sys_id>
+        <sys_id>24cb1824ec2810107f44e039b4f42418</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_lego_set_tra_lego_set</sys_name>
         <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_feda6b5ceca410107f44e039b4f4241e</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_24cb1824ec2810107f44e039b4f42418</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-29 15:25:35</sys_updated_on>
     </ua_table_licensing_config>
