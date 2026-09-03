@@ -1,0 +1,7375 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_set_parts</internal_name>
+        <label_cache>[{"name":"{{action.set_number}}","label":"action➛Set number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[84bdffd9-8104-4ff1-aefc-f6c52542b2cf].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[84bdffd9-8104-4ff1-aefc-f6c52542b2cf].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Get Set Parts</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:55:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ec45dea93c38310674f7c5efaba10b3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Set Parts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2ec45dea93c38310674f7c5efaba10b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2ec45dea93c38310674f7c5efaba10b3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>a215192e93c38310674f7c5efaba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">a615192e93c38310674f7c5efaba10c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2ec45dea93c38310674f7c5efaba10b3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>e615192e93c38310674f7c5efaba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">6e15192e93c38310674f7c5efaba10bc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3^id=2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=2ec45dea93c38310674f7c5efaba10b3^sys_idNOT IN27079d2293078310674f7c5efaba10a4,5e15192e93c38310674f7c5efaba1041"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</action>
+        <cid>063bf5ab-9e89-4fd5-877f-a47228d1bb0f</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>27079d2293078310674f7c5efaba10a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=27079d2293078310674f7c5efaba10a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>27079d2293078310674f7c5efaba10a4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>23079d2293078310674f7c5efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <value>{
+  "count": 71,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 27494061,
+      "inv_part_id": 27494061,
+      "part": {
+        "part_num": "58498c01",
+        "name": "Duplo Hose with Rubber End and Light Bluish Gray Nozzle",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/58498c01/duplo-hose-with-rubber-end-and-light-bluish-gray-nozzle/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4548111.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "58498c01"
+          ],
+          "BrickOwl": [
+            "74981"
+          ],
+          "Brickset": [
+            "58498"
+          ],
+          "LEGO": [
+            "58498"
+          ]
+        }
+      },
+      "color": {
+        "id": 0,
+        "name": "Black",
+        "rgb": "05131D",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              11
+            ],
+            "ext_descrs": [
+              [
+                "Black"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              38
+            ],
+            "ext_descrs": [
+              [
+                "Black"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              26,
+              342
+            ],
+            "ext_descrs": [
+              [
+                "Black",
+                "BLACK"
+              ],
+              [
+                "CONDUCT. BLACK"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "black"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              0,
+              256
+            ],
+            "ext_descrs": [
+              [
+                "Black"
+              ],
+              [
+                "Rubber_Black"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "4548111",
+      "num_sets": 38
+    },
+    {
+      "id": 27502801,
+      "inv_part_id": 27502801,
+      "part": {
+        "part_num": "98252",
+        "name": "Duplo Brick 2 x 3 with Curved Bottom",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/98252/duplo-brick-2-x-3-with-curved-bottom/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6486218.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "98252"
+          ],
+          "BrickOwl": [
+            "286482"
+          ],
+          "Brickset": [
+            "98252"
+          ],
+          "LDraw": [
+            "98252",
+            "98252b"
+          ],
+          "LEGO": [
+            "98252"
+          ]
+        }
+      },
+      "color": {
+        "id": 10,
+        "name": "Bright Green",
+        "rgb": "4B9F4A",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              36
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              41
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              37
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green",
+                "BR.GREEN"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btgreen"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              10
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Green"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6486218",
+      "num_sets": 4
+    },
+    {
+      "id": 27494067,
+      "inv_part_id": 27494067,
+      "part": {
+        "part_num": "6510",
+        "name": "Duplo Plant, Flower with 1 Top Stud",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/6510/duplo-plant-flower-with-1-top-stud/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4121575.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "6510"
+          ],
+          "BrickOwl": [
+            "413073"
+          ],
+          "Brickset": [
+            "52639",
+            "6510"
+          ],
+          "LDraw": [
+            "6510"
+          ],
+          "LEGO": [
+            "52639",
+            "6510"
+          ]
+        }
+      },
+      "color": {
+        "id": 10,
+        "name": "Bright Green",
+        "rgb": "4B9F4A",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              36
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              41
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              37
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green",
+                "BR.GREEN"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btgreen"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              10
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Green"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "4121575",
+      "num_sets": 127
+    },
+    {
+      "id": 27502785,
+      "inv_part_id": 27502785,
+      "part": {
+        "part_num": "35962pr0014",
+        "name": "Duplo Train Action Plate with White Lightning Bolt Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35962pr0014/duplo-train-action-plate-with-white-lightning-bolt-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478082.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35962pb14"
+          ],
+          "BrickOwl": [
+            "175993"
+          ],
+          "Brickset": [
+            "107388"
+          ],
+          "LEGO": [
+            "107388"
+          ]
+        }
+      },
+      "color": {
+        "id": 10,
+        "name": "Bright Green",
+        "rgb": "4B9F4A",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              36
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              41
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              37
+            ],
+            "ext_descrs": [
+              [
+                "Bright Green",
+                "BR.GREEN"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btgreen"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              10
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Green"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478082",
+      "num_sets": 1
+    },
+    {
+      "id": 27494055,
+      "inv_part_id": 27494055,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4226194.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 191,
+        "name": "Bright Light Orange",
+        "rgb": "F8BB3D",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              110
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              43
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btltorange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Flame yellowish orange",
+                "FL. YELL-ORA",
+                "COMPD. FLAME YELLOWISH ORANGE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "4583550",
+      "num_sets": 80
+    },
+    {
+      "id": 27502790,
+      "inv_part_id": 27502790,
+      "part": {
+        "part_num": "4775",
+        "name": "Duplo Slide 8 x 10 x 5 with 2 x 2 Studs on Both Sides",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/4775/duplo-slide-8-x-10-x-5-with-2-x-2-studs-on-both-sides/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481138.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4775"
+          ],
+          "BrickOwl": [
+            "336887"
+          ],
+          "Brickset": [
+            "4775"
+          ],
+          "LEGO": [
+            "4775"
+          ]
+        }
+      },
+      "color": {
+        "id": 191,
+        "name": "Bright Light Orange",
+        "rgb": "F8BB3D",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              110
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              43
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btltorange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Flame yellowish orange",
+                "FL. YELL-ORA",
+                "COMPD. FLAME YELLOWISH ORANGE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481138",
+      "num_sets": 2
+    },
+    {
+      "id": 27502780,
+      "inv_part_id": 27502780,
+      "part": {
+        "part_num": "35960",
+        "name": "Duplo Tipper Box 4 x 4 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35960/duplo-tipper-box-4-x-4-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481124.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35960"
+          ],
+          "BrickOwl": [
+            "159916"
+          ],
+          "Brickset": [
+            "35960"
+          ],
+          "LDraw": [
+            "35960"
+          ],
+          "LEGO": [
+            "35960"
+          ]
+        }
+      },
+      "color": {
+        "id": 191,
+        "name": "Bright Light Orange",
+        "rgb": "F8BB3D",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              110
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              43
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btltorange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Flame yellowish orange",
+                "FL. YELL-ORA",
+                "COMPD. FLAME YELLOWISH ORANGE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6481124",
+      "num_sets": 1
+    },
+    {
+      "id": 27502783,
+      "inv_part_id": 27502783,
+      "part": {
+        "part_num": "35962pr0012",
+        "name": "Duplo Train Action Plate with White Tool, Spanner Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35962pr0012/duplo-train-action-plate-with-white-tool-spanner-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478080.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35962pb13"
+          ],
+          "BrickOwl": [
+            "37485"
+          ],
+          "Brickset": [
+            "107386"
+          ],
+          "LEGO": [
+            "107386"
+          ]
+        }
+      },
+      "color": {
+        "id": 191,
+        "name": "Bright Light Orange",
+        "rgb": "F8BB3D",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              110
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              43
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Orange"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "btltorange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              191
+            ],
+            "ext_descrs": [
+              [
+                "Flame yellowish orange",
+                "FL. YELL-ORA",
+                "COMPD. FLAME YELLOWISH ORANGE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478080",
+      "num_sets": 1
+    },
+    {
+      "id": 27502771,
+      "inv_part_id": 27502771,
+      "part": {
+        "part_num": "4766pr0001",
+        "name": "Duplo Train Engine Cabin 4 x 8 x 3 1/2 with Dark Blue Train Logo, Headlights print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/4766pr0001/duplo-train-engine-cabin-4-x-8-x-3-12-with-dark-blue-train-logo-headlights-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478077.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4766pb01"
+          ],
+          "BrickOwl": [
+            "1283999"
+          ],
+          "Brickset": [
+            "107383"
+          ],
+          "LEGO": [
+            "107383"
+          ]
+        }
+      },
+      "color": {
+        "id": 226,
+        "name": "Bright Light Yellow",
+        "rgb": "FFF03A",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              103
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Yellow"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              44
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Yellow"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              226
+            ],
+            "ext_descrs": [
+              [
+                "Cool Yellow",
+                "COOL YEL.",
+                "COMPD. COOL YELLOW V.3"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "coolyellow"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              226
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Yellow"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478077",
+      "num_sets": 1
+    },
+    {
+      "id": 27502793,
+      "inv_part_id": 27502793,
+      "part": {
+        "part_num": "5206",
+        "name": "Duplo Train Passenger Cabin 4 x 8 x 3 1/2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/5206/duplo-train-passenger-cabin-4-x-8-x-3-12/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6465964.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "5206"
+          ],
+          "BrickOwl": [
+            "834529"
+          ],
+          "Brickset": [
+            "5206"
+          ],
+          "LEGO": [
+            "5206"
+          ]
+        }
+      },
+      "color": {
+        "id": 226,
+        "name": "Bright Light Yellow",
+        "rgb": "FFF03A",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              103
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Yellow"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              44
+            ],
+            "ext_descrs": [
+              [
+                "Bright Light Yellow"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              226
+            ],
+            "ext_descrs": [
+              [
+                "Cool Yellow",
+                "COOL YEL.",
+                "COMPD. COOL YELLOW V.3"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "coolyellow"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              226
+            ],
+            "ext_descrs": [
+              [
+                "Bright_Light_Yellow"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6465964",
+      "num_sets": 1
+    },
+    {
+      "id": 27502772,
+      "inv_part_id": 27502772,
+      "part": {
+        "part_num": "11170",
+        "name": "Duplo Brick 2 x 2 x 1 1/2 with Curved Top",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/11170/duplo-brick-2-x-2-x-1-12-with-curved-top/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481108.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "11170"
+          ],
+          "BrickOwl": [
+            "696944"
+          ],
+          "Brickset": [
+            "11170"
+          ],
+          "LDraw": [
+            "11170"
+          ],
+          "LEGO": [
+            "11170"
+          ]
+        }
+      },
+      "color": {
+        "id": 1050,
+        "name": "Coral",
+        "rgb": "FF698F",
+        "is_trans": false,
+        "external_ids": {
+          "BrickOwl": {
+            "ext_ids": [
+              173
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              220
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral",
+                "Vibrant Coral"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6481108",
+      "num_sets": 1
+    },
+    {
+      "id": 27494048,
+      "inv_part_id": 27494048,
+      "part": {
+        "part_num": "2302",
+        "name": "Duplo Brick 2 x 3 with Curved Top",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/2302/duplo-brick-2-x-3-with-curved-top/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6294240.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "2302"
+          ],
+          "BrickOwl": [
+            "772784"
+          ],
+          "Brickset": [
+            "2302"
+          ],
+          "LDraw": [
+            "2302",
+            "2302b"
+          ],
+          "LEGO": [
+            "2302"
+          ]
+        }
+      },
+      "color": {
+        "id": 1050,
+        "name": "Coral",
+        "rgb": "FF698F",
+        "is_trans": false,
+        "external_ids": {
+          "BrickOwl": {
+            "ext_ids": [
+              173
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              220
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral",
+                "Vibrant Coral"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6294240",
+      "num_sets": 7
+    },
+    {
+      "id": 27494070,
+      "inv_part_id": 27494070,
+      "part": {
+        "part_num": "84195",
+        "name": "Duplo Plant, Flower with 1 Top Studs",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/84195/duplo-plant-flower-with-1-top-studs/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6393151.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "84195"
+          ],
+          "BrickOwl": [
+            "1127383"
+          ],
+          "Brickset": [
+            "84195"
+          ],
+          "LDraw": [
+            "84195"
+          ],
+          "LEGO": [
+            "84195"
+          ]
+        }
+      },
+      "color": {
+        "id": 1050,
+        "name": "Coral",
+        "rgb": "FF698F",
+        "is_trans": false,
+        "external_ids": {
+          "BrickOwl": {
+            "ext_ids": [
+              173
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              220
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral",
+                "Vibrant Coral"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6393151",
+      "num_sets": 29
+    },
+    {
+      "id": 27494057,
+      "inv_part_id": 27494057,
+      "part": {
+        "part_num": "40666",
+        "name": "Duplo Plate 2 x 4",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/40666/duplo-plate-2-x-4/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6288476.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "40666"
+          ],
+          "BrickOwl": [
+            "376601"
+          ],
+          "Brickset": [
+            "40666",
+            "89464"
+          ],
+          "LDraw": [
+            "40666"
+          ],
+          "LEGO": [
+            "40666",
+            "89464"
+          ]
+        }
+      },
+      "color": {
+        "id": 1050,
+        "name": "Coral",
+        "rgb": "FF698F",
+        "is_trans": false,
+        "external_ids": {
+          "BrickOwl": {
+            "ext_ids": [
+              173
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              220
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              353
+            ],
+            "ext_descrs": [
+              [
+                "Coral",
+                "Vibrant Coral"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6288476",
+      "num_sets": 13
+    },
+    {
+      "id": 27494072,
+      "inv_part_id": 27494072,
+      "part": {
+        "part_num": "98233",
+        "name": "Duplo Plate 2 x 6",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/98233/duplo-plate-2-x-6/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6167685.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "98233"
+          ],
+          "BrickOwl": [
+            "821070"
+          ],
+          "Brickset": [
+            "98233"
+          ],
+          "LDraw": [
+            "98233"
+          ],
+          "LEGO": [
+            "98233"
+          ]
+        }
+      },
+      "color": {
+        "id": 321,
+        "name": "Dark Azure",
+        "rgb": "078BC9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              153
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              47
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azur"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "dkazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6167685",
+      "num_sets": 20
+    },
+    {
+      "id": 27494046,
+      "inv_part_id": 27494046,
+      "part": {
+        "part_num": "20302",
+        "name": "Duplo Suitcase / Bag",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/20302/duplo-suitcase-bag/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6226885.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "20302"
+          ],
+          "BrickOwl": [
+            "700859"
+          ],
+          "Brickset": [
+            "20302"
+          ],
+          "LDraw": [
+            "20302-f1",
+            "20302-f2"
+          ],
+          "LEGO": [
+            "20302"
+          ]
+        }
+      },
+      "color": {
+        "id": 321,
+        "name": "Dark Azure",
+        "rgb": "078BC9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              153
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              47
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azur"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "dkazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6226885",
+      "num_sets": 13
+    },
+    {
+      "id": 27502782,
+      "inv_part_id": 27502782,
+      "part": {
+        "part_num": "35962pr0011",
+        "name": "Duplo Train Action Plate with White Water Droplet Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35962pr0011/duplo-train-action-plate-with-white-water-droplet-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478079.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35962pb11"
+          ],
+          "BrickOwl": [
+            "1130068"
+          ],
+          "Brickset": [
+            "107385"
+          ],
+          "LEGO": [
+            "107385"
+          ]
+        }
+      },
+      "color": {
+        "id": 321,
+        "name": "Dark Azure",
+        "rgb": "078BC9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              153
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              47
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark Azur"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "dkazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              321
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478079",
+      "num_sets": 1
+    },
+    {
+      "id": 27502791,
+      "inv_part_id": 27502791,
+      "part": {
+        "part_num": "4777",
+        "name": "Duplo Lever / Boom",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/4777/duplo-lever-boom/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6466889.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4777"
+          ],
+          "BrickOwl": [
+            "724085"
+          ],
+          "Brickset": [
+            "4777"
+          ],
+          "LEGO": [
+            "4777"
+          ]
+        }
+      },
+      "color": {
+        "id": 272,
+        "name": "Dark Blue",
+        "rgb": "0A3463",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              63
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              48
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              140,
+              428
+            ],
+            "ext_descrs": [
+              [
+                "Earth blue"
+              ],
+              [
+                "Earth Blue V.3."
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "navyblue"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              272
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Blue"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6466889",
+      "num_sets": 2
+    },
+    {
+      "id": 27502769,
+      "inv_part_id": 27502769,
+      "part": {
+        "part_num": "104188",
+        "name": "Duplo Train Base 4 x 8 with Light Bluish Gray Train Wheels and Yellow Moveable Hook (New Version)",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/104188/duplo-train-base-4-x-8-with-light-bluish-gray-train-wheels-and-yellow-moveable-hook-new-version/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481141.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "28759c01"
+          ],
+          "BrickOwl": [
+            "852261"
+          ],
+          "Brickset": [
+            "104188"
+          ],
+          "LEGO": [
+            "104188"
+          ]
+        }
+      },
+      "color": {
+        "id": 272,
+        "name": "Dark Blue",
+        "rgb": "0A3463",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              63
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              48
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              140,
+              428
+            ],
+            "ext_descrs": [
+              [
+                "Earth blue"
+              ],
+              [
+                "Earth Blue V.3."
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "navyblue"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              272
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Blue"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6481141",
+      "num_sets": 2
+    },
+    {
+      "id": 27502774,
+      "inv_part_id": 27502774,
+      "part": {
+        "part_num": "13358",
+        "name": "Duplo Train Crossing Gate Base / Crane Base with Bottom Hole",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/13358/duplo-train-crossing-gate-base-crane-base-with-bottom-hole/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481109.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "13358"
+          ],
+          "BrickOwl": [
+            "505333"
+          ],
+          "Brickset": [
+            "13358"
+          ],
+          "LDraw": [
+            "13358"
+          ],
+          "LEGO": [
+            "13358"
+          ]
+        }
+      },
+      "color": {
+        "id": 272,
+        "name": "Dark Blue",
+        "rgb": "0A3463",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              63
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              48
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              140,
+              428
+            ],
+            "ext_descrs": [
+              [
+                "Earth blue"
+              ],
+              [
+                "Earth Blue V.3."
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "navyblue"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              272
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Blue"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6481109",
+      "num_sets": 7
+    },
+    {
+      "id": 27502770,
+      "inv_part_id": 27502770,
+      "part": {
+        "part_num": "106704",
+        "name": "Duplo Train Engine Base, Push &amp; Go Motor with White Headlights",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/106704/duplo-train-engine-base-push-go-motor-with-white-headlights/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6471949.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "103651c01"
+          ],
+          "BrickOwl": [
+            "564183"
+          ],
+          "Brickset": [
+            "106704"
+          ],
+          "LEGO": [
+            "106704"
+          ]
+        }
+      },
+      "color": {
+        "id": 272,
+        "name": "Dark Blue",
+        "rgb": "0A3463",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              63
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              48
+            ],
+            "ext_descrs": [
+              [
+                "Dark Blue"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              140,
+              428
+            ],
+            "ext_descrs": [
+              [
+                "Earth blue"
+              ],
+              [
+                "Earth Blue V.3."
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "navyblue"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              272
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Blue"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6471949",
+      "num_sets": 2
+    },
+    {
+      "id": 27494060,
+      "inv_part_id": 27494060,
+      "part": {
+        "part_num": "16265",
+        "name": "Duplo Wrench with Handles",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/16265/duplo-wrench-with-handles/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6432321.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "16265"
+          ],
+          "BrickOwl": [
+            "949059"
+          ],
+          "Brickset": [
+            "16265",
+            "5165"
+          ],
+          "LEGO": [
+            "16265",
+            "5165"
+          ]
+        }
+      },
+      "color": {
+        "id": 72,
+        "name": "Dark Bluish Gray",
+        "rgb": "6C6E68",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              85
+            ],
+            "ext_descrs": [
+              [
+                "Dark Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              50
+            ],
+            "ext_descrs": [
+              [
+                "Dark Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              199
+            ],
+            "ext_descrs": [
+              [
+                "Dark stone grey",
+                "DK. ST. GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "dkstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              72
+            ],
+            "ext_descrs": [
+              [
+                "Dark_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6464779",
+      "num_sets": 9
+    },
+    {
+      "id": 27494052,
+      "inv_part_id": 27494052,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4654789.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 31,
+        "name": "Lavender",
+        "rgb": "E1D5ED",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              154
+            ],
+            "ext_descrs": [
+              [
+                "Lavender"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              36
+            ],
+            "ext_descrs": [
+              [
+                "Lavender"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              325
+            ],
+            "ext_descrs": [
+              [
+                "Lavender"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lavender"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              31
+            ],
+            "ext_descrs": [
+              [
+                "Lavender"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "4654789",
+      "num_sets": 27
+    },
+    {
+      "id": 27502796,
+      "inv_part_id": 27502796,
+      "part": {
+        "part_num": "76371pr0253",
+        "name": "Duplo Brick 1 x 2 x 2 with Control Screen, Train Track, Times print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371pr0253/duplo-brick-1-x-2-x-2-with-control-screen-train-track-times-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478088.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066pb850"
+          ],
+          "BrickOwl": [
+            "1081776"
+          ],
+          "Brickset": [
+            "107394"
+          ],
+          "LEGO": [
+            "107394"
+          ]
+        }
+      },
+      "color": {
+        "id": 323,
+        "name": "Light Aqua",
+        "rgb": "ADC3C0",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              152
+            ],
+            "ext_descrs": [
+              [
+                "Light Aqua"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              62
+            ],
+            "ext_descrs": [
+              [
+                "Light Aqua"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              323
+            ],
+            "ext_descrs": [
+              [
+                "Aqua"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "ltaqua"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              323
+            ],
+            "ext_descrs": [
+              [
+                "Light_Aqua"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478088",
+      "num_sets": 1
+    },
+    {
+      "id": 27502787,
+      "inv_part_id": 27502787,
+      "part": {
+        "part_num": "35965",
+        "name": "Duplo Train Track, Straight with 4 x 8 Plate on Side",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35965/duplo-train-track-straight-with-4-x-8-plate-on-side/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6490945.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35965"
+          ],
+          "BrickOwl": [
+            "986672"
+          ],
+          "Brickset": [
+            "35965"
+          ],
+          "LDraw": [
+            "35965"
+          ],
+          "LEGO": [
+            "35965"
+          ]
+        }
+      },
+      "color": {
+        "id": 323,
+        "name": "Light Aqua",
+        "rgb": "ADC3C0",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              152
+            ],
+            "ext_descrs": [
+              [
+                "Light Aqua"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              62
+            ],
+            "ext_descrs": [
+              [
+                "Light Aqua"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              323
+            ],
+            "ext_descrs": [
+              [
+                "Aqua"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "ltaqua"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              323
+            ],
+            "ext_descrs": [
+              [
+                "Light_Aqua"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6490945",
+      "num_sets": 1
+    },
+    {
+      "id": 27502776,
+      "inv_part_id": 27502776,
+      "part": {
+        "part_num": "27370pr0001",
+        "name": "Duplo Animal Bird with Bright Pink/Dark Azure Feathered Chest, Black Beak print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/27370pr0001/duplo-animal-bird-with-bright-pinkdark-azure-feathered-chest-black-beak-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478094.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "27370pb08"
+          ],
+          "BrickOwl": [
+            "761479"
+          ],
+          "Brickset": [
+            "107400"
+          ],
+          "LEGO": [
+            "107400"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478094",
+      "num_sets": 1
+    },
+    {
+      "id": 27494053,
+      "inv_part_id": 27494053,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4211870.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "4583794",
+      "num_sets": 69
+    },
+    {
+      "id": 27494065,
+      "inv_part_id": 27494065,
+      "part": {
+        "part_num": "65084",
+        "name": "Duplo Plate 2 x 3 with 4 Studs and Reinforced Hinge",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/65084/duplo-plate-2-x-3-with-4-studs-and-reinforced-hinge/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6310412.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "65084"
+          ],
+          "BrickOwl": [
+            "389591"
+          ],
+          "Brickset": [
+            "65084"
+          ],
+          "LDraw": [
+            "65084"
+          ],
+          "LEGO": [
+            "65084"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6310412",
+      "num_sets": 8
+    },
+    {
+      "id": 27494063,
+      "inv_part_id": 27494063,
+      "part": {
+        "part_num": "6378",
+        "name": "Duplo Train Track 4 x 8 Curved [Short]",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/6378/duplo-train-track-4-x-8-curved-short/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6207493.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "6378"
+          ],
+          "BrickOwl": [
+            "906947"
+          ],
+          "Brickset": [
+            "6378"
+          ],
+          "LDraw": [
+            "6378"
+          ],
+          "LEGO": [
+            "6378"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 15,
+      "is_spare": false,
+      "element_id": "6207493",
+      "num_sets": 7
+    },
+    {
+      "id": 27494062,
+      "inv_part_id": 27494062,
+      "part": {
+        "part_num": "6377",
+        "name": "Duplo Train Track 4 x 8 Straight",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/6377/duplo-train-track-4-x-8-straight/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6207494.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "6377"
+          ],
+          "BrickOwl": [
+            "472965"
+          ],
+          "Brickset": [
+            "31463",
+            "6377"
+          ],
+          "LDraw": [
+            "6377"
+          ],
+          "LEGO": [
+            "31463",
+            "6377"
+          ],
+          "Peeron": [
+            "31463"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6207494",
+      "num_sets": 8
+    },
+    {
+      "id": 27494059,
+      "inv_part_id": 27494059,
+      "part": {
+        "part_num": "51560",
+        "name": "Duplo Train Track Switcher with Red Switch",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/51560/duplo-train-track-switcher-with-red-switch/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6207508.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "51943c01"
+          ],
+          "BrickOwl": [
+            "592221"
+          ],
+          "Brickset": [
+            "51560"
+          ],
+          "LDraw": [
+            "51560-f1",
+            "51560-f2"
+          ],
+          "LEGO": [
+            "51560"
+          ]
+        }
+      },
+      "color": {
+        "id": 71,
+        "name": "Light Bluish Gray",
+        "rgb": "A0A5A9",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              86
+            ],
+            "ext_descrs": [
+              [
+                "Light Bluish Gray"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              64
+            ],
+            "ext_descrs": [
+              [
+                "Medium Stone Gray"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              194
+            ],
+            "ext_descrs": [
+              [
+                "Medium stone grey",
+                "MED. ST-GREY"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdstone"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              71
+            ],
+            "ext_descrs": [
+              [
+                "Light_Bluish_Gray"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6207508",
+      "num_sets": 5
+    },
+    {
+      "id": 27494051,
+      "inv_part_id": 27494051,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4183780.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "4183780",
+      "num_sets": 188
+    },
+    {
+      "id": 27494047,
+      "inv_part_id": 27494047,
+      "part": {
+        "part_num": "22881",
+        "name": "Duplo Brick 2 x 2 - Grooved Pin on Side",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/22881/duplo-brick-2-x-2-grooved-pin-on-side/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6127191.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "22881"
+          ],
+          "BrickOwl": [
+            "208243"
+          ],
+          "Brickset": [
+            "22881"
+          ],
+          "LDraw": [
+            "22881"
+          ],
+          "LEGO": [
+            "22881"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6127191",
+      "num_sets": 22
+    },
+    {
+      "id": 27502768,
+      "inv_part_id": 27502768,
+      "part": {
+        "part_num": "102708pr0002",
+        "name": "Duplo Figure Child, Afro Black, Light Aqua Legs, Bright Pink Shirt Print",
+        "part_cat_id": 57,
+        "part_url": "https://rebrickable.com/parts/102708pr0002/duplo-figure-child-afro-black-light-aqua-legs-bright-pink-shirt-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6491580.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "47205pb126"
+          ],
+          "BrickOwl": [
+            "552340"
+          ],
+          "Brickset": [
+            "102708"
+          ],
+          "LEGO": [
+            "102708"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6491580",
+      "num_sets": 2
+    },
+    {
+      "id": 27494050,
+      "inv_part_id": 27494050,
+      "part": {
+        "part_num": "31925",
+        "name": "Duplo Flag Wavy 3 x 4 with Post",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/31925/duplo-flag-wavy-3-x-4-with-post/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6187321.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "31925"
+          ],
+          "BrickOwl": [
+            "51364"
+          ],
+          "Brickset": [
+            "31925"
+          ],
+          "LDraw": [
+            "31925"
+          ],
+          "LEGO": [
+            "31925"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6187321",
+      "num_sets": 17
+    },
+    {
+      "id": 27494066,
+      "inv_part_id": 27494066,
+      "part": {
+        "part_num": "6510",
+        "name": "Duplo Plant, Flower with 1 Top Stud",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/6510/duplo-plant-flower-with-1-top-stud/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6214736.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "6510"
+          ],
+          "BrickOwl": [
+            "413073"
+          ],
+          "Brickset": [
+            "52639",
+            "6510"
+          ],
+          "LDraw": [
+            "6510"
+          ],
+          "LEGO": [
+            "52639",
+            "6510"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6214736",
+      "num_sets": 36
+    },
+    {
+      "id": 27494044,
+      "inv_part_id": 27494044,
+      "part": {
+        "part_num": "14721",
+        "name": "Duplo Plate 4 x 4",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/14721/duplo-plate-4-x-4/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6327077.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "14721"
+          ],
+          "BrickOwl": [
+            "958634"
+          ],
+          "Brickset": [
+            "14721"
+          ],
+          "LDraw": [
+            "14721"
+          ],
+          "LEGO": [
+            "14721"
+          ]
+        }
+      },
+      "color": {
+        "id": 27,
+        "name": "Lime",
+        "rgb": "BBE90B",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              34
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              70
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "lime"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              27
+            ],
+            "ext_descrs": [
+              [
+                "Lime"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              119
+            ],
+            "ext_descrs": [
+              [
+                "Br. yellowish green",
+                "BR.YEL-GREEN",
+                "BRIGHT YELLOWISH GREEN"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6327077",
+      "num_sets": 11
+    },
+    {
+      "id": 27494038,
+      "inv_part_id": 27494038,
+      "part": {
+        "part_num": "100808",
+        "name": "Curtain, Carwash, Strips",
+        "part_cat_id": 77,
+        "part_url": "https://rebrickable.com/parts/100808/curtain-carwash-strips/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/photos/322/100808-322-b2a441a7-197d-4581-ad91-505812f18697.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "100808"
+          ],
+          "BrickOwl": [
+            "1067083"
+          ],
+          "Brickset": [
+            "100808"
+          ],
+          "LEGO": [
+            "100808"
+          ]
+        }
+      },
+      "color": {
+        "id": 322,
+        "name": "Medium Azure",
+        "rgb": "36AEBF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              156
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              73
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              322,
+              491
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure",
+                "MEDIUM AZUR"
+              ],
+              []
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              322
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6411819",
+      "num_sets": 2
+    },
+    {
+      "id": 27494064,
+      "inv_part_id": 27494064,
+      "part": {
+        "part_num": "6474",
+        "name": "Duplo Brick 2 x 2 Slope 45°",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/6474/duplo-brick-2-x-2-slope-45/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6172514.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "6474"
+          ],
+          "BrickOwl": [
+            "55668"
+          ],
+          "Brickset": [
+            "6474",
+            "67199"
+          ],
+          "LDraw": [
+            "6474"
+          ],
+          "LEGO": [
+            "6474",
+            "67199"
+          ],
+          "Peeron": [
+            "x1451"
+          ]
+        }
+      },
+      "color": {
+        "id": 322,
+        "name": "Medium Azure",
+        "rgb": "36AEBF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              156
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              73
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              322,
+              491
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure",
+                "MEDIUM AZUR"
+              ],
+              []
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              322
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6172514",
+      "num_sets": 12
+    },
+    {
+      "id": 27494073,
+      "inv_part_id": 27494073,
+      "part": {
+        "part_num": "98252",
+        "name": "Duplo Brick 2 x 3 with Curved Bottom",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/98252/duplo-brick-2-x-3-with-curved-bottom/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6167834.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "98252"
+          ],
+          "BrickOwl": [
+            "286482"
+          ],
+          "Brickset": [
+            "98252"
+          ],
+          "LDraw": [
+            "98252",
+            "98252b"
+          ],
+          "LEGO": [
+            "98252"
+          ]
+        }
+      },
+      "color": {
+        "id": 322,
+        "name": "Medium Azure",
+        "rgb": "36AEBF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              156
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              73
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              322,
+              491
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure",
+                "MEDIUM AZUR"
+              ],
+              []
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              322
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6167834",
+      "num_sets": 15
+    },
+    {
+      "id": 27494042,
+      "inv_part_id": 27494042,
+      "part": {
+        "part_num": "10888",
+        "name": "Duplo Turntable 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/10888/duplo-turntable-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6303199.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "10564c01"
+          ],
+          "BrickOwl": [
+            "293339"
+          ],
+          "Brickset": [
+            "10888"
+          ],
+          "LEGO": [
+            "10888"
+          ]
+        }
+      },
+      "color": {
+        "id": 322,
+        "name": "Medium Azure",
+        "rgb": "36AEBF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              156
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              73
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              322,
+              491
+            ],
+            "ext_descrs": [
+              [
+                "Medium Azure",
+                "MEDIUM AZUR"
+              ],
+              []
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdazure"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              322
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Azure"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6303199",
+      "num_sets": 7
+    },
+    {
+      "id": 27494071,
+      "inv_part_id": 27494071,
+      "part": {
+        "part_num": "84195",
+        "name": "Duplo Plant, Flower with 1 Top Studs",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/84195/duplo-plant-flower-with-1-top-studs/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6446310.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "84195"
+          ],
+          "BrickOwl": [
+            "1127383"
+          ],
+          "Brickset": [
+            "84195"
+          ],
+          "LDraw": [
+            "84195"
+          ],
+          "LEGO": [
+            "84195"
+          ]
+        }
+      },
+      "color": {
+        "id": 30,
+        "name": "Medium Lavender",
+        "rgb": "AC78BA",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              157
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              76
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              324
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender",
+                "MEDIUM LAVENDEL"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdlavender"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              30
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Lavender"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6446310",
+      "num_sets": 14
+    },
+    {
+      "id": 27502781,
+      "inv_part_id": 27502781,
+      "part": {
+        "part_num": "35962pr0009",
+        "name": "Duplo Train Action Plate with White Star Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35962pr0009/duplo-train-action-plate-with-white-star-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6480167.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35962pb08"
+          ],
+          "BrickOwl": [
+            "1493205"
+          ],
+          "Brickset": [
+            "107498"
+          ],
+          "LEGO": [
+            "107498"
+          ]
+        }
+      },
+      "color": {
+        "id": 30,
+        "name": "Medium Lavender",
+        "rgb": "AC78BA",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              157
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              76
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              324
+            ],
+            "ext_descrs": [
+              [
+                "Medium Lavender",
+                "MEDIUM LAVENDEL"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mdlavender"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              30
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Lavender"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6480167",
+      "num_sets": 2
+    },
+    {
+      "id": 27494040,
+      "inv_part_id": 27494040,
+      "part": {
+        "part_num": "104931pr0001",
+        "name": "Duplo Animal Cat / Kitten Looping Tail, White Chest, Feet, Tail End, and Mouth Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/104931pr0001/duplo-animal-cat-kitten-looping-tail-white-chest-feet-tail-end-and-mouth-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6463924.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "104931pb01"
+          ],
+          "BrickOwl": [
+            "207494"
+          ],
+          "Brickset": [
+            "105417"
+          ],
+          "LEGO": [
+            "105417"
+          ]
+        }
+      },
+      "color": {
+        "id": 84,
+        "name": "Medium Nougat",
+        "rgb": "AA7D55",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              150
+            ],
+            "ext_descrs": [
+              [
+                "Medium Nougat"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              74
+            ],
+            "ext_descrs": [
+              [
+                "Medium Dark Flesh"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              312
+            ],
+            "ext_descrs": [
+              [
+                "Medium Nougat",
+                "M. NOUGAT"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "mddkflesh"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              84
+            ],
+            "ext_descrs": [
+              [
+                "Medium_Nougat"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6463924",
+      "num_sets": 3
+    },
+    {
+      "id": 27502799,
+      "inv_part_id": 27502799,
+      "part": {
+        "part_num": "76371pr0256",
+        "name": "Duplo Brick 1 x 2 x 2 with Bright Green Toolbox, Tools print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371pr0256/duplo-brick-1-x-2-x-2-with-bright-green-toolbox-tools-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478087.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066pb849"
+          ],
+          "BrickOwl": [
+            "3028"
+          ],
+          "Brickset": [
+            "107393"
+          ],
+          "LEGO": [
+            "107393"
+          ]
+        }
+      },
+      "color": {
+        "id": 25,
+        "name": "Orange",
+        "rgb": "FE8A18",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              4
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              80
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              106
+            ],
+            "ext_descrs": [
+              [
+                "Bright orange",
+                "BR.ORANGE"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "orange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              25
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478087",
+      "num_sets": 1
+    },
+    {
+      "id": 27502795,
+      "inv_part_id": 27502795,
+      "part": {
+        "part_num": "65242c01pr0001",
+        "name": "Duplo Figure with Hair Swept Right Reddish Brown, Dark Blue Glasses, with Medium Azure Legs, Shirt Print",
+        "part_cat_id": 57,
+        "part_url": "https://rebrickable.com/parts/65242c01pr0001/duplo-figure-with-hair-swept-right-reddish-brown-dark-blue-glasses-with-medium-azure-legs-shirt-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/photos/25/65242c01pr0001-25-da5dcc96-a1c2-47b4-b3b0-be45a085d903.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "47394pb368"
+          ],
+          "BrickOwl": [
+            "305262"
+          ],
+          "Brickset": [
+            "65242",
+            "97852"
+          ],
+          "LEGO": [
+            "65242",
+            "97852"
+          ]
+        }
+      },
+      "color": {
+        "id": 25,
+        "name": "Orange",
+        "rgb": "FE8A18",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              4
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              80
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              106
+            ],
+            "ext_descrs": [
+              [
+                "Bright orange",
+                "BR.ORANGE"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "orange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              25
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6607604",
+      "num_sets": 1
+    },
+    {
+      "id": 27494045,
+      "inv_part_id": 27494045,
+      "part": {
+        "part_num": "20302",
+        "name": "Duplo Suitcase / Bag",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/20302/duplo-suitcase-bag/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6104418.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "20302"
+          ],
+          "BrickOwl": [
+            "700859"
+          ],
+          "Brickset": [
+            "20302"
+          ],
+          "LDraw": [
+            "20302-f1",
+            "20302-f2"
+          ],
+          "LEGO": [
+            "20302"
+          ]
+        }
+      },
+      "color": {
+        "id": 25,
+        "name": "Orange",
+        "rgb": "FE8A18",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              4
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              80
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              106
+            ],
+            "ext_descrs": [
+              [
+                "Bright orange",
+                "BR.ORANGE"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "orange"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              25
+            ],
+            "ext_descrs": [
+              [
+                "Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6104418",
+      "num_sets": 16
+    },
+    {
+      "id": 27502789,
+      "inv_part_id": 27502789,
+      "part": {
+        "part_num": "41970pr0024",
+        "name": "Duplo Brick 1 x 3 x 2 Round Top with Clock, White Face, Dark Red Arms, Orange Numbers / Orange Fruit print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/41970pr0024/duplo-brick-1-x-3-x-2-round-top-with-clock-white-face-dark-red-arms-orange-numbers-orange-fruit-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478085.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "14222pb034"
+          ],
+          "BrickOwl": [
+            "959765"
+          ],
+          "Brickset": [
+            "107391"
+          ],
+          "LEGO": [
+            "107391"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478085",
+      "num_sets": 1
+    },
+    {
+      "id": 27502800,
+      "inv_part_id": 27502800,
+      "part": {
+        "part_num": "98252",
+        "name": "Duplo Brick 2 x 3 with Curved Bottom",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/98252/duplo-brick-2-x-3-with-curved-bottom/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481116.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "98252"
+          ],
+          "BrickOwl": [
+            "286482"
+          ],
+          "Brickset": [
+            "98252"
+          ],
+          "LDraw": [
+            "98252",
+            "98252b"
+          ],
+          "LEGO": [
+            "98252"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481116",
+      "num_sets": 1
+    },
+    {
+      "id": 27502775,
+      "inv_part_id": 27502775,
+      "part": {
+        "part_num": "2302",
+        "name": "Duplo Brick 2 x 3 with Curved Top",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/2302/duplo-brick-2-x-3-with-curved-top/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6490877.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "2302"
+          ],
+          "BrickOwl": [
+            "772784"
+          ],
+          "Brickset": [
+            "2302"
+          ],
+          "LDraw": [
+            "2302",
+            "2302b"
+          ],
+          "LEGO": [
+            "2302"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6490877",
+      "num_sets": 4
+    },
+    {
+      "id": 27502778,
+      "inv_part_id": 27502778,
+      "part": {
+        "part_num": "3011",
+        "name": "Duplo Brick 2 x 4",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3011/duplo-brick-2-x-4/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481102.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3011"
+          ],
+          "BrickOwl": [
+            "978649"
+          ],
+          "Brickset": [
+            "3011",
+            "31459",
+            "34579",
+            "89463"
+          ],
+          "LDraw": [
+            "3011",
+            "31459"
+          ],
+          "LEGO": [
+            "3011",
+            "31459",
+            "34579",
+            "89463"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481102",
+      "num_sets": 2
+    },
+    {
+      "id": 27502786,
+      "inv_part_id": 27502786,
+      "part": {
+        "part_num": "35964",
+        "name": "Duplo Support / Column / Girder",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35964/duplo-support-column-girder/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481132.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35964"
+          ],
+          "BrickOwl": [
+            "702944"
+          ],
+          "Brickset": [
+            "35964"
+          ],
+          "LDraw": [
+            "35964"
+          ],
+          "LEGO": [
+            "35964"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "6481132",
+      "num_sets": 1
+    },
+    {
+      "id": 27502784,
+      "inv_part_id": 27502784,
+      "part": {
+        "part_num": "35962pr0013",
+        "name": "Duplo Train Action Plate with White Clock Print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35962pr0013/duplo-train-action-plate-with-white-clock-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478078.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35962pb12"
+          ],
+          "BrickOwl": [
+            "843434"
+          ],
+          "Brickset": [
+            "107384"
+          ],
+          "LEGO": [
+            "107384"
+          ]
+        }
+      },
+      "color": {
+        "id": 1136,
+        "name": "Reddish Orange",
+        "rgb": "CA4C0B",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Reddish_Orange"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              402
+            ],
+            "ext_descrs": [
+              [
+                "Red. Orange"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              167
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              241
+            ],
+            "ext_descrs": [
+              [
+                "Reddish Orange"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478078",
+      "num_sets": 1
+    },
+    {
+      "id": 27502797,
+      "inv_part_id": 27502797,
+      "part": {
+        "part_num": "76371pr0254",
+        "name": "Duplo Brick 1 x 2 x 2 with Croissants, Pear, Juice Box, Bottle print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371pr0254/duplo-brick-1-x-2-x-2-with-croissants-pear-juice-box-bottle-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478090.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066pb851"
+          ],
+          "BrickOwl": [
+            "427802"
+          ],
+          "Brickset": [
+            "107396"
+          ],
+          "LEGO": [
+            "107396"
+          ]
+        }
+      },
+      "color": {
+        "id": 19,
+        "name": "Tan",
+        "rgb": "E4CD9E",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              2
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              89
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              5
+            ],
+            "ext_descrs": [
+              [
+                "Brick yellow",
+                "BRICK-YEL"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "tan"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              19
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478090",
+      "num_sets": 1
+    },
+    {
+      "id": 27502788,
+      "inv_part_id": 27502788,
+      "part": {
+        "part_num": "35965",
+        "name": "Duplo Train Track, Straight with 4 x 8 Plate on Side",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35965/duplo-train-track-straight-with-4-x-8-plate-on-side/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481125.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35965"
+          ],
+          "BrickOwl": [
+            "986672"
+          ],
+          "Brickset": [
+            "35965"
+          ],
+          "LDraw": [
+            "35965"
+          ],
+          "LEGO": [
+            "35965"
+          ]
+        }
+      },
+      "color": {
+        "id": 19,
+        "name": "Tan",
+        "rgb": "E4CD9E",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              2
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              89
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              5
+            ],
+            "ext_descrs": [
+              [
+                "Brick yellow",
+                "BRICK-YEL"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "tan"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              19
+            ],
+            "ext_descrs": [
+              [
+                "Tan"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481125",
+      "num_sets": 2
+    },
+    {
+      "id": 27494069,
+      "inv_part_id": 27494069,
+      "part": {
+        "part_num": "76371",
+        "name": "Duplo Brick 1 x 2 x 2 with Bottom Tube",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371/duplo-brick-1-x-2-x-2-with-bottom-tube/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6101121.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066"
+          ],
+          "BrickOwl": [
+            "781896"
+          ],
+          "Brickset": [
+            "15847",
+            "34578",
+            "76371"
+          ],
+          "LDraw": [
+            "76371"
+          ],
+          "LEGO": [
+            "15847",
+            "34578",
+            "76371"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 3,
+      "is_spare": false,
+      "element_id": "6101121",
+      "num_sets": 46
+    },
+    {
+      "id": 27494041,
+      "inv_part_id": 27494041,
+      "part": {
+        "part_num": "76371pr9912",
+        "name": "Duplo Brick 1 x 2 x 2 with Red/Green Traffic Light, Face print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371pr9912/duplo-brick-1-x-2-x-2-with-redgreen-traffic-light-face-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478083.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066pb833"
+          ],
+          "BrickOwl": [
+            "478077"
+          ],
+          "Brickset": [
+            "107389"
+          ],
+          "LEGO": [
+            "107389"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478083",
+      "num_sets": 5
+    },
+    {
+      "id": 27494056,
+      "inv_part_id": 27494056,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/343701.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 2,
+      "is_spare": false,
+      "element_id": "343701",
+      "num_sets": 187
+    },
+    {
+      "id": 27502773,
+      "inv_part_id": 27502773,
+      "part": {
+        "part_num": "11170pr0023",
+        "name": "Duplo Brick 2 x 2 x 1 1/2 with Control Screen, Lightning Bolt, Leave, train, Shapes print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/11170pr0023/duplo-brick-2-x-2-x-1-12-with-control-screen-lightning-bolt-leave-train-shapes-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478084.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "11170pb17"
+          ],
+          "BrickOwl": [
+            "634008"
+          ],
+          "Brickset": [
+            "107390"
+          ],
+          "LEGO": [
+            "107390"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478084",
+      "num_sets": 1
+    },
+    {
+      "id": 27494049,
+      "inv_part_id": 27494049,
+      "part": {
+        "part_num": "3011",
+        "name": "Duplo Brick 2 x 4",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3011/duplo-brick-2-x-4/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/301101.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3011"
+          ],
+          "BrickOwl": [
+            "978649"
+          ],
+          "Brickset": [
+            "3011",
+            "31459",
+            "34579",
+            "89463"
+          ],
+          "LDraw": [
+            "3011",
+            "31459"
+          ],
+          "LEGO": [
+            "3011",
+            "31459",
+            "34579",
+            "89463"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "301101",
+      "num_sets": 111
+    },
+    {
+      "id": 27502777,
+      "inv_part_id": 27502777,
+      "part": {
+        "part_num": "27383pr0007",
+        "name": "Duplo Cone / Ice Cup with Orange, Yellow Bubbles print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/27383pr0007/duplo-cone-ice-cup-with-orange-yellow-bubbles-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478086.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "27383pb05"
+          ],
+          "BrickOwl": [
+            "70206"
+          ],
+          "Brickset": [
+            "107392"
+          ],
+          "LEGO": [
+            "107392"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478086",
+      "num_sets": 1
+    },
+    {
+      "id": 27494068,
+      "inv_part_id": 27494068,
+      "part": {
+        "part_num": "72152pr0058",
+        "name": "Duplo Figure Child with Long Hair and Cap Coral, Bright Light Blue Legs, Striped Shirt with Heart Print",
+        "part_cat_id": 57,
+        "part_url": "https://rebrickable.com/parts/72152pr0058/duplo-figure-child-with-long-hair-and-cap-coral-bright-light-blue-legs-striped-shirt-with-heart-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6376729.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "47205pb091"
+          ],
+          "BrickOwl": [
+            "132030"
+          ],
+          "Brickset": [
+            "72152"
+          ],
+          "LEGO": [
+            "72152"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6376729",
+      "num_sets": 4
+    },
+    {
+      "id": 27494039,
+      "inv_part_id": 27494039,
+      "part": {
+        "part_num": "102748pr0002",
+        "name": "Duplo Figure with Curly Hair Dark Brown, Dark Blue Legs, Jacket over Yellowish Green Shirt Print",
+        "part_cat_id": 57,
+        "part_url": "https://rebrickable.com/parts/102748pr0002/duplo-figure-with-curly-hair-dark-brown-dark-blue-legs-jacket-over-yellowish-green-shirt-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6442943.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "47394pb350"
+          ],
+          "BrickOwl": [
+            "84530"
+          ],
+          "Brickset": [
+            "102748",
+            "114672"
+          ],
+          "LEGO": [
+            "102748",
+            "114672"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6604625",
+      "num_sets": 4
+    },
+    {
+      "id": 27502779,
+      "inv_part_id": 27502779,
+      "part": {
+        "part_num": "35130",
+        "name": "Duplo Mill/Propeller",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/35130/duplo-millpropeller/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481122.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "35130"
+          ],
+          "BrickOwl": [
+            "172308"
+          ],
+          "Brickset": [
+            "35130"
+          ],
+          "LEGO": [
+            "35130"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481122",
+      "num_sets": 1
+    },
+    {
+      "id": 27494058,
+      "inv_part_id": 27494058,
+      "part": {
+        "part_num": "44524",
+        "name": "Duplo Plate 2 x 8",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/44524/duplo-plate-2-x-8/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4563575.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "44524"
+          ],
+          "BrickOwl": [
+            "72742"
+          ],
+          "Brickset": [
+            "44524"
+          ],
+          "LDraw": [
+            "44524"
+          ],
+          "LEGO": [
+            "44524"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "4563575",
+      "num_sets": 24
+    },
+    {
+      "id": 27494043,
+      "inv_part_id": 27494043,
+      "part": {
+        "part_num": "13359",
+        "name": "Duplo Train Barrier / Crossing Gate with Lever [Plain]",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/13359/duplo-train-barrier-crossing-gate-with-lever-plain/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6037884.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "13359"
+          ],
+          "BrickOwl": [
+            "466145"
+          ],
+          "Brickset": [
+            "13359"
+          ],
+          "LDraw": [
+            "13359"
+          ],
+          "LEGO": [
+            "13359"
+          ]
+        }
+      },
+      "color": {
+        "id": 15,
+        "name": "White",
+        "rgb": "FFFFFF",
+        "is_trans": false,
+        "external_ids": {
+          "BrickLink": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              92
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "Peeron": {
+            "ext_ids": [
+              null
+            ],
+            "ext_descrs": [
+              [
+                "white"
+              ]
+            ]
+          },
+          "LDraw": {
+            "ext_ids": [
+              15
+            ],
+            "ext_descrs": [
+              [
+                "White"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              1
+            ],
+            "ext_descrs": [
+              [
+                "White",
+                "WHITE V.3"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6037884",
+      "num_sets": 4
+    },
+    {
+      "id": 27502798,
+      "inv_part_id": 27502798,
+      "part": {
+        "part_num": "76371pr0255",
+        "name": "Duplo Brick 1 x 2 x 2 with Check List, 1, 2, 3, Wrench, Lightning Bolt, Droplet print",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/76371pr0255/duplo-brick-1-x-2-x-2-with-check-list-1-2-3-wrench-lightning-bolt-droplet-print/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6478089.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4066pb848"
+          ],
+          "BrickOwl": [
+            "1013900"
+          ],
+          "Brickset": [
+            "107395"
+          ],
+          "LEGO": [
+            "107395"
+          ]
+        }
+      },
+      "color": {
+        "id": 158,
+        "name": "Yellowish Green",
+        "rgb": "DFEEA5",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish_Green"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              158
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              94
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Spring Yellow Green",
+                "SPR. YELL. GREE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6478089",
+      "num_sets": 1
+    },
+    {
+      "id": 27494054,
+      "inv_part_id": 27494054,
+      "part": {
+        "part_num": "3437",
+        "name": "Duplo Brick 2 x 2",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/3437/duplo-brick-2-x-2/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/4648235.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "3437"
+          ],
+          "BrickOwl": [
+            "719240"
+          ],
+          "Brickset": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ],
+          "LDraw": [
+            "31460",
+            "3437"
+          ],
+          "LEGO": [
+            "17556",
+            "20678",
+            "31460",
+            "3437",
+            "34575",
+            "89461",
+            "89462"
+          ]
+        }
+      },
+      "color": {
+        "id": 158,
+        "name": "Yellowish Green",
+        "rgb": "DFEEA5",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish_Green"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              158
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              94
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Spring Yellow Green",
+                "SPR. YELL. GREE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 4,
+      "is_spare": false,
+      "element_id": "6209859",
+      "num_sets": 26
+    },
+    {
+      "id": 27502802,
+      "inv_part_id": 27502802,
+      "part": {
+        "part_num": "93353",
+        "name": "Duplo Support / Umbrella Stand with Square Base (fits 92002)",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/93353/duplo-support-umbrella-stand-with-square-base-fits-92002/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6490943.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "93353"
+          ],
+          "BrickOwl": [
+            "339458"
+          ],
+          "Brickset": [
+            "93353"
+          ],
+          "LDraw": [
+            "93353"
+          ],
+          "LEGO": [
+            "93353"
+          ]
+        }
+      },
+      "color": {
+        "id": 158,
+        "name": "Yellowish Green",
+        "rgb": "DFEEA5",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish_Green"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              158
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              94
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Spring Yellow Green",
+                "SPR. YELL. GREE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6490943",
+      "num_sets": 1
+    },
+    {
+      "id": 27502792,
+      "inv_part_id": 27502792,
+      "part": {
+        "part_num": "4785",
+        "name": "Duplo Train Tracks, Ramp",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/4785/duplo-train-tracks-ramp/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6465960.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "4785"
+          ],
+          "BrickOwl": [
+            "1204130"
+          ],
+          "Brickset": [
+            "4785"
+          ],
+          "LEGO": [
+            "4785"
+          ]
+        }
+      },
+      "color": {
+        "id": 158,
+        "name": "Yellowish Green",
+        "rgb": "DFEEA5",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish_Green"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              158
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              94
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Spring Yellow Green",
+                "SPR. YELL. GREE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6465960",
+      "num_sets": 2
+    },
+    {
+      "id": 27502794,
+      "inv_part_id": 27502794,
+      "part": {
+        "part_num": "5370",
+        "name": "Duplo Train Track, Straight with 2 x 8 Plate on Both Sides",
+        "part_cat_id": 4,
+        "part_url": "https://rebrickable.com/parts/5370/duplo-train-track-straight-with-2-x-8-plate-on-both-sides/",
+        "part_img_url": "https://cdn.rebrickable.com/media/parts/elements/6481090.jpg",
+        "external_ids": {
+          "BrickLink": [
+            "5370"
+          ],
+          "BrickOwl": [
+            "1257635"
+          ],
+          "Brickset": [
+            "5370"
+          ],
+          "LDraw": [
+            "5370"
+          ],
+          "LEGO": [
+            "5370"
+          ]
+        }
+      },
+      "color": {
+        "id": 158,
+        "name": "Yellowish Green",
+        "rgb": "DFEEA5",
+        "is_trans": false,
+        "external_ids": {
+          "LDraw": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish_Green"
+              ]
+            ]
+          },
+          "BrickLink": {
+            "ext_ids": [
+              158
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "BrickOwl": {
+            "ext_ids": [
+              94
+            ],
+            "ext_descrs": [
+              [
+                "Yellowish Green"
+              ]
+            ]
+          },
+          "LEGO": {
+            "ext_ids": [
+              326
+            ],
+            "ext_descrs": [
+              [
+                "Spring Yellow Green",
+                "SPR. YELL. GREE"
+              ]
+            ]
+          }
+        }
+      },
+      "set_num": "10428-1",
+      "quantity": 1,
+      "is_spare": false,
+      "element_id": "6481090",
+      "num_sets": 3
+    }
+  ]
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>27079d2293078310674f7c5efaba10a4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>eb079d2293078310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <value>{"name":"__step_status__","children":[{"name":"code","children":[],"type":"integer","jpath":"","previewValue":""},{"name":"message","children":[],"type":"string","jpath":"","previewValue":""}],"type":"object","jpath":"","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=27079d2293078310674f7c5efaba10a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>27079d2293078310674f7c5efaba10a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>2b079d2293078310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>27079d2293078310674f7c5efaba10a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>e3079d2293078310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[84bdffd9-8104-4ff1-aefc-f6c52542b2cf].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>27079d2293078310674f7c5efaba10a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>af079d2293078310674f7c5efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=27079d2293078310674f7c5efaba10a4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=27079d2293078310674f7c5efaba10a4"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=27079d2293078310674f7c5efaba10a4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27079d2293078310674f7c5efaba10a4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</action>
+        <cid>84bdffd9-8104-4ff1-aefc-f6c52542b2cf</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:16</sys_created_on>
+        <sys_id>5e15192e93c38310674f7c5efaba1041</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>2615192e93c38310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>2a15192e93c38310674f7c5efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>https://rebrickable.com/api/v3/lego/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>6a15192e93c38310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>4d0119e293c38310674f7c5efaba101b</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>6e15192e93c38310674f7c5efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>6f079d2293078310674f7c5efaba109c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>a215192e93c38310674f7c5efaba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>aa15192e93c38310674f7c5efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ae15192e93c38310674f7c5efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>e215192e93c38310674f7c5efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e15192e93c38310674f7c5efaba1041</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ee15192e93c38310674f7c5efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5e15192e93c38310674f7c5efaba1041^id=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_element_mapping action="delete_multiple" query="id=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>a215192e93c38310674f7c5efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>6e15192e93c38310674f7c5efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>2a15192e93c38310674f7c5efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>6a15192e93c38310674f7c5efaba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>e615192e93c38310674f7c5efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>e215192e93c38310674f7c5efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"{{step[84bdffd9-8104-4ff1-aefc-f6c52542b2cf].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>aa15192e93c38310674f7c5efaba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>2615192e93c38310674f7c5efaba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 17:05:49</sys_created_on>
+        <sys_id>ab079d2293078310674f7c5efaba109c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ae15192e93c38310674f7c5efaba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>sets/{{action.set_number}}/parts</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>5e15192e93c38310674f7c5efaba1041</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ee15192e93c38310674f7c5efaba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5e15192e93c38310674f7c5efaba1041^sys_idNOT IN5615192e93c38310674f7c5efaba1057"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=40e4a421-156e-4906-8463-73cbd467266d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">5e15192e93c38310674f7c5efaba1041</model>
+        <model_id>5e15192e93c38310674f7c5efaba1041</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5e15192e93c38310674f7c5efaba1041</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:16</sys_created_on>
+        <sys_id>5615192e93c38310674f7c5efaba1057</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e15192e93c38310674f7c5efaba1041"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5e15192e93c38310674f7c5efaba1041</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:16</sys_created_on>
+        <sys_id>1a15192e93c38310674f7c5efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=2ec45dea93c38310674f7c5efaba10b3^sys_idNOT INd215192e93c38310674f7c5efaba1010"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2566622e-abf8-44f9-aa47-8e75b4cd36e8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>set_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Set number</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</model>
+        <model_id>2ec45dea93c38310674f7c5efaba10b3</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2ec45dea93c38310674f7c5efaba10b3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:16</sys_created_on>
+        <sys_id>d215192e93c38310674f7c5efaba1010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d215192e93c38310674f7c5efaba1010"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2ec45dea93c38310674f7c5efaba10b3^sys_idNOT IN6e15192e93c38310674f7c5efaba10bc,a615192e93c38310674f7c5efaba10c5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1dd10a56-7e14-4898-9484-7f5ae2f6e3a5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</model>
+        <model_id>2ec45dea93c38310674f7c5efaba10b3</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>6e15192e93c38310674f7c5efaba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6e15192e93c38310674f7c5efaba10bc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e15192e93c38310674f7c5efaba10bc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=9e1ccd58-cc0f-4a13-b786-5aaafb9d4c31,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</model>
+        <model_id>2ec45dea93c38310674f7c5efaba10b3</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>a615192e93c38310674f7c5efaba10c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 17:05:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a615192e93c38310674f7c5efaba10c5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a615192e93c38310674f7c5efaba10c5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2ec45dea93c38310674f7c5efaba10b3^sys_idNOT INea15192e93c38310674f7c5efaba10d8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Set Parts">2ec45dea93c38310674f7c5efaba10b3</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ea15192e93c38310674f7c5efaba10d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ea15192e93c38310674f7c5efaba10d8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>set_number</element>
+        <help/>
+        <hint/>
+        <label>Set number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2ec45dea93c38310674f7c5efaba10b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:16</sys_created_on>
+        <sys_id>9615192e93c38310674f7c5efaba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>2615192e93c38310674f7c5efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:57:17</sys_created_on>
+        <sys_id>ae15192e93c38310674f7c5efaba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:57:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2ec45dea93c38310674f7c5efaba10b3"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=2ec45dea93c38310674f7c5efaba10b3"/>
+</record_update>

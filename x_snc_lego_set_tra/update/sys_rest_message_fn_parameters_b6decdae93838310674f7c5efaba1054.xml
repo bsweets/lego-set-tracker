@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>min_year</name>
+        <rest_message_function display_value="Get Sets">4a8f386e93038310674f7c5efaba108f</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 16:30:00</sys_created_on>
+        <sys_id>b6decdae93838310674f7c5efaba1054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>min_year</sys_name>
+        <sys_package display_value="Lego Set Tracker" source="x_snc_lego_set_tra">58f9231ceca410107f44e039b4f4244d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lego Set Tracker">58f9231ceca410107f44e039b4f4244d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_b6decdae93838310674f7c5efaba1054</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 16:30:00</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_rest_message_fn_parameters>
+</record_update>
